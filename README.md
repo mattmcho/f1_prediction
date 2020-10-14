@@ -6,7 +6,7 @@ Being able to accurately predict Formula 1 race results can be a great asset to 
 
 ## 1. Dataset creation
 
-The first step of building the F1 prediction model was to retrieve relevant features and data for training and testing. After comparing multiple online F1 datasets, I found that [Ergast API](http://ergast.com/mrd/) provides the most comprensive historical record of F1 data since the beginning of the World Championships in 1950. Once the data tables were downloaded as CSV files, they were preprocessed to generate a single data table containing potential input and output features (feature engineering). 
+The first step of building the F1 prediction model was to retrieve relevant features and data for training and testing. After comparing multiple online F1 datasets, I found that [Ergast API](http://ergast.com/mrd/) provides the most comprensive historical record of F1 data since the beginning of the World Championships in 1950. Once the data tables were downloaded as CSV files (which can be found in the "raw_data" folder above), they were preprocessed to generate a single data table containing potential input and output features ("dataset.csv" file above). 
 
 This is shown in the [dataset_creation.ipynb](https://github.com/mattcho1157/f1_race_prediction_model/blob/main/dataset_creation.ipynb) Jupyter Notebook file above.
 
