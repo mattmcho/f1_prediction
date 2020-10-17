@@ -1,3 +1,5 @@
+@ Copyright 2020 Matthew Mingyeom Cho
+
 # F1 Race Prediction Model
 
 Amazon Web Services explain it best in their 2018 Formula 1 Case Study: "Formula 1 is a data-driven sport. During each race, 120 sensors on each car generate 3 GB of data, and 1,500 data points are generated each second ... Formula 1’s data scientists are training deep-learning models with 65 years of historical race data to extract critical race performance statistics, make race predictions, and give fans insight into the split-second decisions and strategies adopted by teams and drivers."
